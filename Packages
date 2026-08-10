@@ -1,3 +1,21 @@
+Package: com.Axs.ccvideo
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Rascal
+Installed-Size: 280
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit
+Filename: ./debs/控制中心视频_无根.deb
+Size: 41032
+MD5sum: eca9a5ea20890ea0f5947ab1e7df86dd
+SHA1: c4b50acdbaf718b01306b2255d8e530e8b3ff228
+SHA256: 8d148610f6f4ce039f11460b299cb3c000863ea8bce219e34a1570bb9797b219
+Section: 控制中心
+Description: 在手机设置，控制中心里面添加模块设置。
+Author: Rascal
+Icon: https://axs66.github.io/pro/icon/ccvideo.png
+Name: 控制中心视频
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ccvideo/js.json
+
 Package: com.Axs.floating-view
 Version: 1.6.0-6
 Architecture: iphoneos-arm64
@@ -38,6 +56,84 @@ Author: 白衣
 Icon: https://axs66.github.io/pro/icon/switchtheme.png
 Name: 日月开关
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchtheme/js.json
+
+Package: com.axs.axon
+Version: 5.2.0-55
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 552
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/com.axs.axon_5.2.0-55_iphoneos-arm64.deb
+Size: 65554
+MD5sum: 27f3f4317ae065545f8e5468a9efac01
+SHA1: 3ea4413b6c3c6845bc60fa3d01a8e5330fb3faf2
+SHA256: fe2a3e43e8d8555e0b8e13c24ec87c984575a30353903add7a34bb474252a025
+Section: Axs-Tweaks
+Description: Priority Hub for iOS 16 - 将锁屏通知按应用智能分组。
+ * 1.按应用分组管理通知，一目了然
+ * 2.支持水平/垂直布局、多种图标样式
+ * 3.触觉反馈、深色模式、角标数量显示
+ * 4.按时间/应用名/通知数量排序
+ * 5.自定义间距、对齐方式、位置
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/axon.png
+Name: Axon
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
+
+Package: com.axs.axsfont
+Version: 5.2.0
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 420
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.axs.axsfont_5.2.0_iphoneos-arm64.deb
+Size: 29780
+MD5sum: dde4e3f35e567747facb338ee19e782b
+SHA1: 49c9d7ac9cfa788f4f8bca7f99dc9cf149bdb5d8
+SHA256: aabf60e5a6ef17683eb04b70c8ce30e4c4345f44057bd4ef63b29cdafe1edc7f
+Section: Axs-Tweaks
+Description: 全局加载系统字体，直接插件面板导入字体，设置后，注销生效。省去烦人的挂载操作。
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/a-font.png
+Name: AxsFont
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/a-font/js.json
+
+Package: com.axs.newfeature.core
+Version: 5.2.0-661
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 932
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/NewFeature_5.2.0-661_无根.deb
+Size: 256204
+MD5sum: 88ebca795db33f811d74b63b54c4bf18
+SHA1: 24ea79b4b915671f50867ed3ea1c9fd2cf19020b
+SHA256: 2392cc25ec5a803747b4b84c6fd8080d23bc1bab3261fe0544f63bee8f2da994
+Section: 微信插件
+Priority: optional
+Description: 一个简单的微信插件。功能介绍：
+ * 1.账号信息：用户信息、应用信息、签名信息。
+ * 2.内测功能：微信各版本灰度功能提前享用。
+ * 3.输入窗口：聊天界面输入框美化及增强功能。
+ * 4.实用功能：抢红包、游戏作弊、步数修改、虚拟定位、消息防撤回、消息屏蔽、消息引用、引用消息点击跳转、全屏三击截图、全屏返回手势、后台保活、首页列表长按预览、隐藏微信号、朋友圈显示详细时间。
+ * 5.附件布局：聊天功能面板 2x5布局(可自定义排序)。
+ * 6.信息时间：聊天界面消息时间自定义。
+ * 7.触摸轨迹：微信内置触摸轨迹自定义。
+ * 8.头像设置：微信头像的圆角、个人页头像旋转、聊天界面隐藏头像等功能。
+ * 9.字体加载：在微信内置字体，支持ttf或otf格式。
+ * 10.文件管理：支持文件管理、上传、分享、复制、移动、压缩、删除、重命名；数据存档及恢复、清理数据等。
+ * 11.美化功能(Svip群享受)：
+    11.1 微信头像-自定义位置，状态，特效。
+    11.2 微信铭牌-群聊昵称铭牌。
+    11.3 首页背景、菜单背景等支持多媒体。
+    11.4 底栏背景：隐藏图标文字、特效等。
+    11.5 时间背景、SVG图标随机颜色。
+ * 12.其他功能：输入法隐藏Logo、图片边缘点击关闭、图片信息扩展、微信去广告、绕过越狱检测、自动登录、朋友圈消息尾巴、动态背景。
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Name: NewFeature
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/newfeature/js.json
 
 Package: com.axs.snapper3tag
 Version: 5.2.0-16
@@ -129,6 +225,24 @@ Section: Tweaks
 Description: 让简单截图，拥有更多可能。
 Author: 冰蓝
 Name: 全局水印Pro
+
+Package: com.charlieleung.snapvision
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Charlie Leung
+Installed-Size: 1032
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/snapvision_0.0.1_无根.deb
+Size: 175320
+MD5sum: 54f995d18bd2b3f179da8b4a08a81d1c
+SHA1: 06a29b9f2ee64f62ab0722a67e7a809313e6aa57
+SHA256: b1dedc05b3b0875bea892914dd0d612e83052a5f88f1b3515dce9f31e5c9be98
+Section: Tweaks
+Description: 这是一款长截图插件，支持鱿鱼手势，支持openjb分屏手势
+Author: Charlie Leung
+Icon: https://axs66.github.io/pro/icon/snapvision.png
+Name: SnapVision长截图
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapvision/js.json
 
 Package: com.spark.snowboard
 Version: 1.5.50
