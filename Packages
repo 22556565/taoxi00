@@ -16,3 +16,120 @@ Icon: https://axs66.github.io/pro/icon/switchtheme.png
 Name: 日月开关
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchtheme/js.json
 
+Package: com.binglan.dynamicfx
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 772
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.binglan.dynamicfx_1.0.7_iphoneos-arm64.deb
+Size: 116200
+MD5sum: 05a77edf63e6ce60a9617db71dae7dd8
+SHA1: 45d7cc1bf7d327f6c46f6c243e007b5bddc87db1
+SHA256: 3f11f776910d3b787714fa344f2d6a1f5dea8661d52cd838d62bd3b438288fc6
+Section: Tweaks
+Description: 灵动岛背景？
+Author: 冰蓝
+Name: DynamicFX
+
+Package: com.binglan.kongzhidiy
+Version: 2.3.6-end
+Architecture: iphoneos-arm64
+Maintainer: binglan
+Installed-Size: 8024
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Filename: ./debs/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64.deb
+Size: 3737830
+MD5sum: c41451e2abd93846ec2ce0876603fd3c
+SHA1: 269b1fc174a86037f9a9f8e18975d533817770c2
+SHA256: 353a6bd6843867713774414fe5d4bad552580ec5c4fee8e37e01b451d456fe57
+Section: Tweaks
+Description: 控制中心中心美化？
+Author: binglan
+Icon: https://i.imgs.ovh/2026/06/10/dfb8c206be141bb3c7d070b29d0d9d56.jpg
+Name: CCPrimeX
+
+Package: com.binglan.nb23
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: binglan
+Installed-Size: 280
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit
+Filename: ./debs/com.binglan.nb23_0.0.2_iphoneos-arm64.deb
+Size: 39680
+MD5sum: f53984e90a01eca3c68b07033f4ee7bc
+SHA1: b45fa2ce41b5dcf684292b0a400cf89528e38511
+SHA256: a72adc8d4a167ff83e3be13c3045834ed4c5293541bc0ce925a89b5d8283ca46
+Section: Tweaks
+Description: 神秘功能
+Author: binglan
+Name: CC控制中心视频模块
+
+Package: com.binglanqjsy.deb
+Version: 4.1.6-end
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 2464
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.binglanqjsy.deb_4.1.6-end_iphoneos-arm64.deb
+Size: 485144
+MD5sum: 5326b4462bc36af609bca9edb03dc07b
+SHA1: 24224cbc133791023204a395825c5227cad63ac7
+SHA256: f54f2002951ebe03be59592a74d9a7cb984d581338807c392d9e7602aa3fa122
+Section: Tweaks
+Description: 让简单截图，拥有更多可能。
+Author: 冰蓝
+Name: 全局水印Pro
+
+Package: com.spark.snowboard
+Version: 1.5.50
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 3268
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/com.spark.snowboard_1.5.50_iphoneos-arm64.deb
+Size: 1255596
+MD5sum: 069b3abe4e9317ea301568357dd59ea1
+SHA1: 34ac02aebc8f633fdba518304b4b7c69dd535ed9
+SHA256: 9ac5bb5d7c2fc0e98e749f257394859ab365f01fdad62fd0f956dccf7b012bf9
+Section: SnowBoard
+Description: Snowboard本体，所有扩展都将依赖此插件，单独使用可以更换桌面图标（抖动后双击）等其他功能，此源仅作备份与注释。
+Author: Spark & Dennis D. Bednarz
+Icon: https://s1.imagehub.cc/images/2025/02/16/6184f5a172c0da2db10df7ddce6977bc.png
+Name: SnowBoard
+
+Package: com.susu.collection
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 520
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.susu.collection_1.0_iphoneos-arm64.deb
+Size: 56446
+MD5sum: b0174be21fa1fe79a9e99f836ae38e7e
+SHA1: bc5c1b8fb8c897c82f2b4789c14f6b8e254a881e
+SHA256: f624d3e4047183f116d0544b2a8887d64fe9372901dcdb0205ec8f809d1d4364
+Section: Tweaks
+Description: 自用合集插件
+Author: SuSu
+Name: SuCollection
+
+Package: rootless-compat
+Version: 1.9
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 284
+Depends: com.roothide.patchloader(>= 0.0.4)
+Filename: ./debs/rootless-compat_1.9_iphoneos-arm64e.deb
+Size: 39860
+MD5sum: c02213a52dfe387ea6b5c4c8203e7177
+SHA1: c5d25b7511bf1bcb54567bf4848772b6f6830155
+SHA256: 269fb6ab8978d2b3f404e680b40d77323df95b87a495651e5a9faaaf5f188567
+Section: RootHide Patches
+Description: Compat Layer for Rootless Tweaks
+Author: roothide
+Name: rootless-compat
+
