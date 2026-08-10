@@ -1,0 +1,18 @@
+Package: com.Axs.switchtheme
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: baiy（qq：961666883））
+Installed-Size: 272
+Depends: mobilesubstrate
+Filename: ./debs/日月开关-1.0.0.deb
+Size: 37428
+MD5sum: 7aec350c0aff54599b25f120fb4bbf1e
+SHA1: d172755b67d9eed851e17a391882963ee0e81461
+SHA256: f9a1677237f69940112ecbfb7ea54434e0c6d6d8915e665b5452488b810db1a8
+Section: Tweaks
+Description: 这是一款款全新的开关主题，通过模拟太阳升起与落下的动画效果，带来极致流畅且视觉惊艳的替代体验。
+Author: 白衣
+Icon: https://axs66.github.io/pro/icon/switchtheme.png
+Name: 日月开关
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchtheme/js.json
+
