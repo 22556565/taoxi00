@@ -1,4 +1,4 @@
-Package: com.Taoxi.ccvideo
+Package: com.Axs.ccvideo
 Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: Rascal
@@ -12,7 +12,7 @@ SHA256: 8d148610f6f4ce039f11460b299cb3c000863ea8bce219e34a1570bb9797b219
 Section: 控制中心
 Description: 在手机设置，控制中心里面添加模块设置。
 Author: Rascal
-Icon: https://22556565.github.io/taoxi00/CydiaIcon.png
+Icon: https://axs66.github.io/pro/icon/ccvideo.png
 Name: 控制中心视频
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ccvideo/js.json
 
