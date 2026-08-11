@@ -487,6 +487,23 @@ Name: OneSettings(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/onesettings/js.json
 Sponsor: sini921
 
+Package: com.sini.pancake
+Version: 2.3
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Filename: ./debs/com.sini.pancake_2.3_iphoneos-arm64.deb
+Size: 113044
+MD5sum: c4f4cbf629328e609a8acded41fae849
+SHA1: 6689ca7ef9236d5deaa4134d94f98f62de60feb5
+SHA256: f00f10c46cc12e2328372ab7baca73c10764de6d08cb673529ca3d460c507dde
+Section: 越狱插件
+Description: 在屏幕上任何位置向右滑返回上一页
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/pancake.png
+Name: PanCake(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/pancake/js.json
+
 Package: com.sini.qqantirecall.x
 Version: 1.6
 Architecture: iphoneos-arm64
