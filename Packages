@@ -395,6 +395,26 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
 Name: Filza Crack(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/filzacrack/js.json
 
+Package: com.sini.instalauncher2
+Version: 1.11.0
+Architecture: iphoneos-arm64
+Maintainer: sini921
+Installed-Size: 1188
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.jontelang.instalauncher2.beta
+Filename: ./debs/InstaLauncher 2(rootless)-1.11.0-iphoneos-arm64.deb
+Size: 204892
+MD5sum: afd9d59343a698e3c43fcbf37dafc598
+SHA1: e33b21f6afc0b7be682b29e28f24b5672320ed84
+SHA256: cf21087ac847086b8fc42e13fed82fcb5a1a4949f99a53f007662b3176b93bd9
+Section: 越狱插件
+Description: 快捷打开App，侧面呼出菜单
+Author: Jonathan Winger
+Icon: https://sini921.github.io/repo/sileodepiction/icon/cebian.png
+Name: InstaLauncher 2(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/cebian/js.json
+Sponsor: sini921
+
 Package: com.sini.qqantirecall.x
 Version: 1.6
 Architecture: iphoneos-arm64
@@ -430,6 +450,24 @@ Author: fiore & p2kdev & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
 Name: CCBorder(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
+
+Package: com.sini921.griddy
+Version: 1.0.5-1
+Architecture: iphoneos-arm64
+Maintainer: mikifp & SINI
+Installed-Size: 428
+Depends: mobilesubstrate
+Filename: ./debs/Griddy(rootless)-1.0.5-1-iphoneos-arm64.deb
+Size: 43644
+MD5sum: ac228633c4105c7c1879e53866b57174
+SHA1: c3641af9bc4e3ea9190129ce640e4830cfb1aae9
+SHA256: 877935cc54405f7e6b0688e62dc719d406b19c6e144bbd463432fe61dccafd58
+Section: 越狱插件
+Description: 将桌面图标放在任何你想要的地方！
+Author: mikifp & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/griddy.png
+Name: Griddy(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/griddy/js.json
 
 Package: com.spark.snowboard
 Version: 1.5.50
