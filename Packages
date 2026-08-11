@@ -415,6 +415,40 @@ Name: InstaLauncher 2(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/cebian/js.json
 Sponsor: sini921
 
+Package: com.sini.kuku
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: b4db1r3
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, ws.hbang.common (>= 1.17)
+Filename: ./debs/KuKu Reborn(rootless)-1.5-iphoneos-arm64.deb
+Size: 254576
+MD5sum: 7162274a0ca4307258409dfc73f6379c
+SHA1: 22f254ec19d2d0ba6a3b9ea345114c9ce869bc51
+SHA256: 3f29a05b4068d6fbbeac4a713eac56058b6a20bfeba5ddbe61d584e2ed0b2a9c
+Section: 越狱插件
+Description: 自定义通知横幅
+Author: b4db1r3
+Icon: https://sini921.github.io/repo/sileodepiction/icon/kuku.png
+Name: KuKu Reborn(rootless)
+
+Package: com.sini.lynxtwo
+Version: 2.5.4
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2952
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/Lynx 2(rootless)-2.5.4-iphoneos-arm64.deb
+Size: 676832
+MD5sum: 248fa274bd5cc624ab56315a5920686c
+SHA1: c15d23fca30b8411a3295751c786412f9a57748a
+SHA256: 38f29cd6c18284b6322f8e51f896ca26cc620e1562319adc1df9801938251c13
+Section: 越狱插件
+Description: 大杂烩
+Author: MTAC
+Icon: https://sini921.github.io/repo/sileodepiction/icon/lynxtwo.png
+Name: Lynx 2(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/lynxtwo/js.json
+
 Package: com.sini.qqantirecall.x
 Version: 1.6
 Architecture: iphoneos-arm64
