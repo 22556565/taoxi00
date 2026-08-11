@@ -2,12 +2,18 @@ name: Build package index
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "debs/**"
       - ".github/workflows/build-repo.yml"
 
 permissions:
   contents: write
+
+concurrency:
+  group: package-index-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -16,21 +22,114 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Install dpkg tools
+        shell: bash
         run: |
+          set -Eeuo pipefail
           sudo apt-get update
-          sudo apt-get install -y dpkg-dev
+          sudo apt-get install -y --no-install-recommends dpkg-dev binutils bzip2 gzip xz-utils
 
-      - name: Generate Packages
+      - name: Validate and repair Debian packages
+        shell: bash
         run: |
+          set -Eeuo pipefail
+          shopt -s nullglob
+          debs=(./debs/*.deb)
+
+          if [ "${#debs[@]}" -eq 0 ]; then
+            echo "No .deb files were found in ./debs"
+            exit 1
+          fi
+
+          chmod 755 ./debs
+          find ./debs -type f -name '*.deb' -exec chmod 644 {} +
+
+          repair_deb() {
+            local deb="$1"
+            local work control_member data_member
+            work="$(mktemp -d)"
+            control_member="$(ar t "$deb" | grep -E '^control\.tar(\.|$)' | head -n 1 || true)"
+            data_member="$(ar t "$deb" | grep -E '^data\.tar(\.|$)' | head -n 1 || true)"
+
+            if [ -z "$control_member" ] || [ -z "$data_member" ]; then
+              echo "Cannot find control/data archive members in: $deb"
+              rm -rf "$work"
+              return 1
+            fi
+
+            mkdir -p "$work/pkg/DEBIAN"
+            ar p "$deb" "$control_member" > "$work/control.archive"
+            ar p "$deb" "$data_member" > "$work/data.archive"
+
+            tar -xf "$work/control.archive" -C "$work/pkg/DEBIAN" --no-same-owner --no-same-permissions
+            tar -xf "$work/data.archive" -C "$work/pkg" --no-same-owner --no-same-permissions
+
+            if [ ! -f "$work/pkg/DEBIAN/control" ]; then
+              echo "Missing DEBIAN/control after extraction: $deb"
+              rm -rf "$work"
+              return 1
+            fi
+
+            chmod 755 "$work/pkg/DEBIAN"
+            find "$work/pkg/DEBIAN" -type f -exec chmod 644 {} +
+            for script in preinst postinst prerm postrm config; do
+              if [ -f "$work/pkg/DEBIAN/$script" ]; then
+                chmod 755 "$work/pkg/DEBIAN/$script"
+              fi
+            done
+
+            dpkg-deb --build --root-owner-group "$work/pkg" "$work/fixed.deb"
+            chmod 644 "$work/fixed.deb"
+            mv "$work/fixed.deb" "$deb"
+            rm -rf "$work"
+          }
+
+          for deb in "${debs[@]}"; do
+            echo "Checking: $deb"
+            if ! dpkg-deb -f "$deb" Package Version Architecture > "$RUNNER_TEMP/metadata" 2> "$RUNNER_TEMP/dpkg-error"; then
+              echo "The package has unreadable control metadata; repairing: $deb"
+              cat "$RUNNER_TEMP/dpkg-error"
+              repair_deb "$deb"
+            fi
+
+            dpkg-deb -f "$deb" Package Version Architecture
+            dpkg-deb --contents "$deb" > /dev/null
+
+            package_arch="$(dpkg-deb -f "$deb" Architecture)"
+            case "$package_arch" in
+              all|iphoneos-arm|iphoneos-arm64|iphoneos-arm64e) ;;
+              *)
+                echo "Unsupported Architecture '$package_arch' in $deb"
+                exit 1
+                ;;
+            esac
+          done
+
+      - name: Generate package indexes
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          rm -f Packages Packages.bz2 Packages.gz
           dpkg-scanpackages -m ./debs /dev/null > Packages
+          test -s Packages
           bzip2 -9 -c Packages > Packages.bz2
+          gzip -9 -c Packages > Packages.gz
+          echo "Package entries: $(grep -c '^Package: ' Packages || true)"
+          echo "arm64e entries: $(grep -c '^Architecture: iphoneos-arm64e$' Packages || true)"
 
-      - name: Commit indexes
+      - name: Commit indexes and repaired packages
+        shell: bash
         run: |
+          set -Eeuo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Packages Packages.bz2
-          git diff --cached --quiet || git commit -m "Update package indexes"
-          git push
+          git add debs Packages Packages.bz2 Packages.gz
+          if git diff --cached --quiet; then
+            echo "Repository is already up to date"
+            exit 0
+          fi
+          git commit -m "Update package indexes"
+          git push origin HEAD:main
