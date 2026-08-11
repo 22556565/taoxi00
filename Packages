@@ -606,6 +606,24 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: SystemX
 
+Package: com.wkk.xly
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Filename: ./debs/录屏写轮眼-1.0-1-iphoneos-arm64.deb
+Size: 37892
+MD5sum: a86d6bd312ba81923017b250bdba21b7
+SHA1: 794eda0aef7067aac886579d0a4f5405ae9f530f
+SHA256: a1b822491c310a66de38b41ad69353be54d987ecbd966f41efb78279de0df76b
+Section: 美化
+Description: 仅支持14PM iOS16无根/隐根越狱，将你的灵动岛录屏变成写轮眼！
+  * 挂载路径：/Applications/ReplayKitAngel.app/sc_compact_minimal_v2-D73.ca
+  * 挂载路径：/Applications/ReplayKitAngel.app/sc_compact_leading_v2-D73.ca
+  * 注意：先挂载路径再下载此插件，最后重启Springboard即可。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/30/d4c66f162988cbda1fe9e73e896929f4.jpeg
+Name: 录屏写轮眼
+
 Package: com.wkk.zone
 Version: 2.0.0
 Architecture: iphoneos-arm64
