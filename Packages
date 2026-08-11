@@ -396,6 +396,23 @@ Description: 自用合集插件
 Author: SuSu
 Name: SuCollection
 
+Package: com.susu.snapper3.pictapro
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 180
+Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
+Filename: ./debs/PictaPro-1.0.1.deb
+Size: 10620
+MD5sum: 642e9176c818d33172e5a64406364120
+SHA1: db788e2d87875b5eb379ca0907701cce7ba80edb
+SHA256: d2c94af2fd040bc74674621dad7e701e15a992f3cc6569ce2c4ed1d93e31f5f4
+Section: Tweaks
+Description: PictaPro适配 Snapper3 的插件
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/PictaPro.png
+Name: PictaPro
+
 Package: com.susudear.sharingdalertwatchdog
 Version: 1.0.8
 Architecture: iphoneos-arm64
@@ -468,6 +485,23 @@ Author: SuSuDear
 Icon: https://repo.susubaby.cn/icons/StayShot.png
 Name: StayShot Edit
 Sileodepiction: https://repo.susubaby.cn/json/stayshotedit.json
+
+Package: com.susudear.susuocr
+Version: 1.0.22
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 792
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/SuSuOCR-1.0.22.deb
+Size: 126284
+MD5sum: cef41853faa25ba013304772d41e2187
+SHA1: cbe19b252f6b49a7f5fb9ca4599bd7d6916b1e93
+SHA256: 2c09a84f6e9f3496da346e9529a4c411612a867c5ec8c39da123ebc00fa47d4d
+Section: Tweaks
+Description: 百度 OCR 识别提取文字、百度翻译和 AI 截图处理，需要自备 API。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
 
 Package: com.susudear.susuocr
 Version: 1.0.7
