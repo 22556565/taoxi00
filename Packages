@@ -558,6 +558,24 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/griddy.png
 Name: Griddy(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/griddy/js.json
 
+Package: com.sini921.quickappskill
+Version: 0.0.1-14
+Architecture: iphoneos-arm64
+Maintainer: SINI
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/QuickAppsKill(rootless)-0.0.1-14-iphoneos-arm64.deb
+Size: 62126
+MD5sum: a31ba33c744e7ae7be5ac3e74c53e289
+SHA1: 97624ea0226e1ddb453d82935be0698e8b1d659a
+SHA256: 005825e4edbf9fdfa13321fff72455f8de4a411180eba305cf1a4625f2af8719
+Section: 越狱插件
+Description: 在后台界面添加一个清除所有App的按钮
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/quickappskill.png
+Name: QuickAppsKill(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/quickappskill/js.json
+
 Package: com.spark.snowboard
 Version: 1.5.50
 Architecture: iphoneos-arm64
