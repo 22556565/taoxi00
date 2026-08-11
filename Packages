@@ -449,6 +449,44 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/lynxtwo.png
 Name: Lynx 2(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/lynxtwo/js.json
 
+Package: com.sini.noredirect
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 832
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/com.sini.noredirect_2.1_iphoneos-arm64.deb
+Size: 90560
+MD5sum: ac6a66ed1ed153b793b23eb9747b6614
+SHA1: d9abe50b81ad0e47b7330ba1a439782824ea8463
+SHA256: fedccd30e8c0da2f202fd0083b31568ebaeca2a53eb307a2407de30d2c3e1768
+Section: 越狱插件
+Description: 停止指定的应用程序重定向到App Store、Safari或其他应用程序。
+Author: Lessica <82flex@gmail.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/noredirect.png
+Name: No Redirect(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/noredirect/js.json
+
+Package: com.sini.onesettings
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: sini921
+Installed-Size: 1084
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: ./debs/com.sini.onesettings_2.2_iphoneos-arm64.deb
+Size: 217588
+MD5sum: 86f0653ce6386c45bb91521c7a9068bf
+SHA1: bebba54338b66db7246ebb2b6eec50ec6e53b163
+SHA256: a07dd0c41d6985a9c9dd06fc4c3492f3fd1c5818279253e51122ae68c9ade9cc
+Section: 越狱插件
+Description: 设置美化，插件归类
+Author: Nightwind
+Icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
+Name: OneSettings(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/onesettings/js.json
+Sponsor: sini921
+
 Package: com.sini.qqantirecall.x
 Version: 1.6
 Architecture: iphoneos-arm64
