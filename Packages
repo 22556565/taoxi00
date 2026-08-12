@@ -999,6 +999,23 @@ Author: Skitty
 Icon: https://sini921.github.io/repo/sileodepiction/icon/ersatz.png
 Name: Ersatz
 
+Package: com.wkk.kayoko
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 952
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: debs/Kayoko-3.0-iphoneos-arm64.deb
+Size: 131412
+MD5sum: 6526d42d726b9223e8c487c339adcd49
+SHA1: 71d3df83d47f085bac7c71d11cc5766522848fdd
+SHA256: dc4880274433820b64ce05ca4cc0d152015cad8df203a2696f43084426909fff
+Section: Tweaks
+Description: 剪贴板（支持范围IOS14-17）
+Author: Alexandra Aurora Göttlicher
+Icon: https://s1.imagehub.cc/images/2025/01/23/96e1ab7edb0fee61a64c6cfcfd0623fe.png
+Name: Kayoko
+
 Package: com.wkk.lqgssss
 Version: 1.0-2
 Architecture: iphoneos-arm64
