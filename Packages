@@ -999,6 +999,23 @@ Author: Skitty
 Icon: https://sini921.github.io/repo/sileodepiction/icon/ersatz.png
 Name: Ersatz
 
+Package: com.wkk.lqgssss
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Depends: sudo
+Filename: debs/yetaikaiguan.deb
+Size: 912
+MD5sum: 75e8b187d17944963119238be8a0230c
+SHA1: 9f08137a8d52c3ab96ec1865201b5a86499ed6df
+SHA256: 86584ab29df112054848ca1270615c76fcc76f1f6d26baeb3e2e9ed34c7522ff
+Section: Tweaks
+Description: 安装即生效，修复闹钟bug，付费群友使用。
+Tag: cydia::commercial
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 全局液态开关
+
 Package: com.wkk.mddhook
 Version: 1.0-1
 Architecture: iphoneos-arm64
@@ -1038,6 +1055,23 @@ Description:
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/01/01/e181be0bd44589f6eadb6c2196dc6bb8.jpeg
 Name: 相册优化
+
+Package: com.wkk.pkq
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Filename: debs/animation.deb
+Size: 771152
+MD5sum: af5dc47cadb6af1d5f42cf09c095a90d
+SHA1: d1db865fd4f0d52dc5845646af59f7e8459d1b78
+SHA256: a4b144abb950291138438cd0987e3913d458364c94c0c2e990a7cef1f90b265a
+Section: 美化
+Description: 仅支持无根/隐根越狱
+  * 注销动画路径：/System/Library/PrivateFrameworks/BackBoardServices.framework/
+  * 注意：先挂载注销动画路径再下载此插件，最后重启Springboard后随便找个插件注销即可看到一个可爱的动态皮卡丘。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/06/75dc8800d1c97029204392465be466b4.jpeg
+Name: 皮卡丘注销动画
 
 Package: com.wkk.removewidgetbg
 Version: 2.0
