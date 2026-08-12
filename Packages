@@ -1034,6 +1034,23 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: Smoffice for iOS17
 
+Package: com.wkk.storeswitcher2
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: 苏苏
+Installed-Size: 212
+Depends: firmware (>= 11), mobilesubstrate
+Filename: debs/StoreSwitcher2-1.0.7-iphoneos-arm64.deb
+Size: 15204
+MD5sum: ae7392e1d84dc3f9d871097c483d2759
+SHA1: 77e264df5a1536078f9175b94a1519ab5f44dd0c
+SHA256: ca0e7391f4376f150a5e139d5616e52dd145fc7930cdff200fc54dd2ba34a562
+Section: Tweaks
+Description: App Store 账户快速切换，优化了账号切换逻辑，已汉化。
+Author: 苏苏
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: StoreSwitcher2
+
 Package: com.wkk.systembox
 Version: 1.2-3
 Architecture: iphoneos-arm64
