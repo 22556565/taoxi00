@@ -1248,6 +1248,26 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/CornBar/icon.png
 Name: CornBar 玉米手势横杠
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/CornBar/js.json
 
+Package: de.finngaida.daynightswitchs
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: Finn Gaida
+Installed-Size: 584
+Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: de.finngaida.daynightswitch
+Filename: debs/DayNightSwitch 日月开关-1.2-iphoneos-arm64.deb
+Size: 69268
+MD5sum: 0436d7f0a024897b458be928ef2558d7
+SHA1: 7aad8a4da76aa53db942776ed55ca4f733635b5e
+SHA256: 03a4d6be8edff5e18202cf8285d5648a7bddac47b14c190973b61eca4daaf489
+Section: 乌龙工作室
+Description: 为您的设置开关添加一些日月风格
+ * Add some style to your switches
+Author: Finn Gaida
+Icon: https://TrollStoreX.Github.io/sileodepiction/DayNightSwitch/icon.png
+Name: DayNightSwitch 日月开关
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/DayNightSwitch/js.json
+
 Package: rootless-compat
 Version: 1.9
 Architecture: iphoneos-arm64e
