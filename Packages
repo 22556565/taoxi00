@@ -5,11 +5,11 @@ Maintainer: 搬运工
 Installed-Size: 7344
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
 Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: ./debs/CarBridge-Rootless-2.0.15-iphoneos-arm64.deb
+Filename: ./debs/byg.iosios.net.carbridge15-rootless_2.0.15_iphoneos-arm64.deb
 Size: 446600
-MD5sum: 7a7cab5ab0f632d61a9ae46e23b585dc
-SHA1: 37b4fe69ed152f2da60cf5a8e3d06f39b5c05ac6
-SHA256: dfceaa28ac4e8b9f3d3cc1049e21a8743fdc332335d9c7239770c693b6044398
+MD5sum: 0403df4c06da13a91574e9d43d69ba22
+SHA1: c153f4e1b0a070f2a8dd81d625914cb898d30dc8
+SHA256: 935039eb9ad241fe2ef23e2e8f6ea1f6ba6773f954489c244f3ef9f5dee16fa2
 Section: 系统增强
 Description: Open any app in CarPlay!此版为破解版，让不支持互联的软件显示在车机上！仅供群友尝鮮，正版9.9美元，好像是有点贵，但是有能力的请支持正版！使用中有问题可以加群反馈，等待更新，也可直接入手正版哈，搬运工源只为免费搬运！旧版本在搬运工群文件里，新版本有问题的话，请手动降级回旧版本！不支持半越狱！
 Author: leftyfl1p
@@ -24,11 +24,11 @@ Maintainer: 搬运工
 Installed-Size: 7344
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
 Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: ./debs/byg.iosios.net.carbridge15-rootless_2.0.15_iphoneos-arm64.deb
+Filename: ./debs/CarBridge-Rootless-2.0.15-iphoneos-arm64.deb
 Size: 446600
-MD5sum: 0403df4c06da13a91574e9d43d69ba22
-SHA1: c153f4e1b0a070f2a8dd81d625914cb898d30dc8
-SHA256: 935039eb9ad241fe2ef23e2e8f6ea1f6ba6773f954489c244f3ef9f5dee16fa2
+MD5sum: 7a7cab5ab0f632d61a9ae46e23b585dc
+SHA1: 37b4fe69ed152f2da60cf5a8e3d06f39b5c05ac6
+SHA256: dfceaa28ac4e8b9f3d3cc1049e21a8743fdc332335d9c7239770c693b6044398
 Section: 系统增强
 Description: Open any app in CarPlay!此版为破解版，让不支持互联的软件显示在车机上！仅供群友尝鮮，正版9.9美元，好像是有点贵，但是有能力的请支持正版！使用中有问题可以加群反馈，等待更新，也可直接入手正版哈，搬运工源只为免费搬运！旧版本在搬运工群文件里，新版本有问题的话，请手动降级回旧版本！不支持半越狱！
 Author: leftyfl1p
@@ -475,6 +475,22 @@ Description: 让简单截图，拥有更多可能。
 Author: 冰蓝
 Name: 全局水印Pro
 
+Package: com.binglanqjsy.deb
+Version: 4.1.7-end
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 2576
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.binglanqjsy.deb_4.1.7-end_iphoneos-arm64.deb
+Size: 522792
+MD5sum: aac68325377dbffabb2c17c428045db2
+SHA1: 02899ab3ca47bd63c55d54833710ec467221b226
+SHA256: 26c43d21631de9e4febc4cbc69dfb0e559772720a5ebdd6e30cf0dbad27c3258
+Section: Tweaks
+Description: 让简单截图，拥有更多可能。
+Author: 冰蓝
+Name: 全局水印Pro
+
 Package: com.charlieleung.snapvision
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -607,7 +623,7 @@ Architecture: iphoneos-arm64
 Maintainer: simon
 Installed-Size: 428
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/com.simon.ccmusic_1.0.5_iphoneos-arm64.deb
+Filename: ./debs/控制中心音乐模块动画-1.0.5-iphoneos-arm64.deb
 Size: 28812
 MD5sum: 937a5058e592ac9c39e6c105fca4bfc7
 SHA1: c1f7b8bcbaf2cb2a788d62dc6949959147d6608d
@@ -625,7 +641,7 @@ Architecture: iphoneos-arm64
 Maintainer: simon
 Installed-Size: 428
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/控制中心音乐模块动画-1.0.5-iphoneos-arm64.deb
+Filename: ./debs/com.simon.ccmusic_1.0.5_iphoneos-arm64.deb
 Size: 28812
 MD5sum: 937a5058e592ac9c39e6c105fca4bfc7
 SHA1: c1f7b8bcbaf2cb2a788d62dc6949959147d6608d
@@ -1123,7 +1139,7 @@ Maintainer: leftyfl1p
 Installed-Size: 7344
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
 Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: ./debs/com.wkk.carbridge13_2.0.15_iphoneos-arm64.deb
+Filename: ./debs/CarBridge-2.0.15-iphoneos-arm64.deb
 Size: 434060
 MD5sum: d29984c700181b7237fc00714782cdba
 SHA1: 6b2c8d944f0a0cbe8f56bf381618ca69dceb3623
@@ -1142,7 +1158,7 @@ Maintainer: leftyfl1p
 Installed-Size: 7344
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
 Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: ./debs/CarBridge-2.0.15-iphoneos-arm64.deb
+Filename: ./debs/com.wkk.carbridge13_2.0.15_iphoneos-arm64.deb
 Size: 434060
 MD5sum: d29984c700181b7237fc00714782cdba
 SHA1: 6b2c8d944f0a0cbe8f56bf381618ca69dceb3623
