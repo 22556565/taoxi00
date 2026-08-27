@@ -565,6 +565,27 @@ Author: 妖刀
 Name: CCLess++(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
+Package: com.dylv.liquidglass
+Version: 0.1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: dylv
+Installed-Size: 4816
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Conflicts: com.iosdump.customccbg
+Replaces: com.iosdump.customccbg
+Provides: com.iosdump.customccbg
+Filename: ./debs/com.dylv.liquidglass_0.1.2.1_iphoneos-arm64e.deb
+Size: 3917334
+MD5sum: bc04ba69b0b975351ba89838eea55351
+SHA1: d138572c630f8d4abb6f48ae55a56741c4c34b2e
+SHA256: 40a848c94e84a897a8959e93a6d9f08bc700468fd07dce892f55b5492a4c893b
+Section: Tweaks
+Description: 液态玻璃体玻璃，基于LiquidAss项目修改
+Author: dylv
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Name: 液态玻璃
+
 Package: com.m4fn3.myrtle
 Version: 1.4.1
 Architecture: iphoneos-arm64
