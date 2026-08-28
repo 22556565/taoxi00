@@ -621,6 +621,21 @@ Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor
 Name: MoreColor
 Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
 
+Package: com.opa334.trollstorelite
+Version: 2.1.1-1
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 3844
+Filename: ./debs/com.opa334.trollstorelite_2.1.1-1_iphoneos-arm64e.deb
+Size: 1739500
+MD5sum: d47682640599305df16c5a29e17bcd08
+SHA1: f01bfd3128120b9bf254b520e5458b639f13d263
+SHA256: a606e0576be5d508ff92a4d842b49698088889b85fb3ceeee43f4269ee03e376
+Section: Applications
+Description: TrollStore for RootHide jailbroken iOS
+Author: opa334
+Name: TrollStore Lite (RootHide)
+
 Package: com.sergy.immortalizer
 Version: 2.0.0-1
 Architecture: iphoneos-arm
