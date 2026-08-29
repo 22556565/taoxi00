@@ -476,6 +476,22 @@ Description: 神秘功能
 Author: binglan
 Name: CC控制中心视频模块
 
+Package: com.binglan.qjsymk
+Version: 1.0.16
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 212
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit
+Filename: ./debs/com.binglan.qjsymk_1.0.16_iphoneos-arm64.deb
+Size: 18914
+MD5sum: 79068b516d664ef0d56c99a0bb7b33d2
+SHA1: 250168b2f5a95c24289ee735f29fed0d8148d3fb
+SHA256: 8ca231ae94f13f34ebb2055c65a487d5e1bf56d4b2c98e27810dac3b375e15d7
+Section: Tweaks
+Description: 控制中心快捷控制全局水印开关，安装后注销生效。
+Author: 冰蓝
+Name: 全局水印模块
+
 Package: com.binglanqjsy.deb
 Version: 4.1.6-end
 Architecture: iphoneos-arm64
