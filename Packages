@@ -76,6 +76,22 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
 Name: Hello Memory Status
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
 
+Package: cn.zqbb.jailfools
+Version: 4.3-253
+Architecture: iphoneos-arm64e
+Maintainer: zqbb <zqbbzz@gmail.com>
+Installed-Size: 16640
+Depends: firmware (>= 15.0)
+Filename: ./debs/cn.zqbb.jailfools_4.3-253_iphoneos-arm64e.deb
+Size: 4580898
+MD5sum: 61f3f744ae3cad0540ca2beeb5b023ae
+SHA1: 9c2939708fb278582eff47b95ed4847eb41d5579
+SHA256: 2ef6bec5f5d7acd86130cfb09a977dec3ec6e9f518acb4d40b39da11f07a4ce9
+Section: Applications
+Description: Give me 108 yuan.
+Author: zqbb <zqbbzz@gmail.com>
+Name: JailFools
+
 Package: com.0xkuj.safarix
 Version: 1.9.9.1
 Architecture: iphoneos-arm64
