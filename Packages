@@ -1347,6 +1347,22 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/01/06/75dc8800d1c97029204392465be466b4.jpeg
 Name: 皮卡丘注销动画
 
+Package: com.wkk.recordeyex
+Version: 1.0-5
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.wkk.recordeyex_1.0-5_iphoneos-arm64e.deb
+Size: 67006
+MD5sum: ed808fa1f4e2493274c08df2ff7e03af
+SHA1: 2c0ae5d3e5c9a992eff34b52fd0ea256f2c93700
+SHA256: c9200ed63582f999bc7e59cd852ae26e6197b249b20c2d360a13aeb9d6644d9d
+Section: Tweaks
+Description: 自定义快捷录屏的灵动岛录制指示点。
+Author: wkk
+Name: RecordEyeX
+
 Package: com.wkk.removewidgetbg
 Version: 2.0
 Architecture: iphoneos-arm64
