@@ -1274,6 +1274,23 @@ Depiction: https://havoc.app/package/carbridge
 Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
 Name: CarBridge
 
+Package: com.wkk.copylogx
+Version: 1.0-8
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 1612
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.wkk.copylogx_1.0-8_iphoneos-arm64e.deb
+Size: 222582
+MD5sum: 5f9c6f6c84fb89a7b6ab06f50a54eb78
+SHA1: 8aaa8065b20769aad9a804f78c2892e1e6314286
+SHA256: 6cf43c6db6ace7b818fffd167026f9c5801778048c011aab0997661835a1e11b
+Section: Tweaks
+Description: A lightweight clipboard panel for iOS.
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: CopylogX
+
 Package: com.wkk.ersatz
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -1591,4 +1608,22 @@ Section: RootHide Patches
 Description: Compat Layer for Rootless Tweaks
 Author: roothide
 Name: rootless-compat
+
+Package: xhs.x
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: 𝙓
+Installed-Size: 2592
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: ./debs/xhs.x_1.2.1_iphoneos-arm64.deb
+Size: 800988
+MD5sum: 2687bac4918c65c9518e6cdd338d1ab2
+SHA1: 42407dd59033dd7152f9c346c8efac622d7da5c5
+SHA256: c3f898b62b42c8654b6ef837b8712fd9dc36c051ba18dea27917d0d8ebbb8059
+Section: Tweaks
+Description: 自用
+Author: 𝙓
+Name: 小红薯
 
