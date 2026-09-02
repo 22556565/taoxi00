@@ -459,6 +459,23 @@ Description: 打破沉闷，唤醒界面的灵动 —— FlexMusic by Binglan
 Author: Binglan
 Name: FlexMusic
 
+Package: com.binglan.flexmusic
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: Binglan
+Installed-Size: 2180
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.binglan.music
+Replaces: com.binglan.music
+Filename: ./debs/com.binglan.flexmusic_1.0.7_iphoneos-arm64.deb
+Size: 373028
+MD5sum: 28a632f49ffc8d874216bd1cd16c774c
+SHA1: 5df73a56c624fe12f50f015fe9154e6c18251b4a
+SHA256: 2e70d060ba965b98d252b08985d6a1ada3457d88b9662897a9dabc4d7ffde3f4
+Description: 打破沉闷，唤醒界面的灵动 — by Binglan
+Author: Binglan
+Name: FlexMusic
+
 Package: com.binglan.kongzhidiy
 Version: 2.3.6-end
 Architecture: iphoneos-arm64
