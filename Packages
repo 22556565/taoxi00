@@ -184,23 +184,6 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/qqantirecall.x.png
 Name: NTQQ_AntiRecall(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/qqantirecall.x/js.json
 
-Package: com.susudear.stayshot.long-screenshot
-Version: 1.5.0
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 784
-Depends: com.susudear.stayshot (>= 0.2.4), mobilesubstrate, firmware (>= 15.1), dev.theos.orion (>= 1.0.0)
-Filename: ./debs/StayShot Long Screenshot-1.5.0.deb
-Size: 155890
-MD5sum: 54d410c2bf37a9023a9072bd4f336df4
-SHA1: 1c8e1b6b903a548ff41ddd170f41f2ee19782b1c
-SHA256: b3d56d35b65314cc7536453ac3ee6b233352a89680cd482104716656e24ea234
-Section: Tweaks
-Description: Long screenshot action and capture controller for StayShot.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot Long Screenshot
-
 Package: com.susudear.stayshot.markup
 Version: 1.6.1
 Architecture: iphoneos-arm64e
