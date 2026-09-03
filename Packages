@@ -132,24 +132,6 @@ Icon: https://qi-ting-zhang.github.io/sileo/images/icon/yymk.png
 Name: 控制中心音乐模块动画
 Sileodepiction: https://qi-ting-zhang.github.io/sileo/sileodepiction/yymk.json
 
-Package: com.sini.filzacrack
-Version: 1.1-8
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 88
-Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
-Filename: ./debs/Filza Crack(rootless)-1.1-8-iphoneos-arm64.deb
-Size: 4968
-MD5sum: 7b084de602bc363c63105fe6607ac1d7
-SHA1: f168df5fa127b3c72bef6b874cfa7fe3067addae
-SHA256: 3065342e74fb3a6b0415c3eff6d14b9add02b0d75d3028098122b808d372f7be
-Section: 越狱插件
-Description: Filza破解
-Author: Netskao
-Icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
-Name: Filza Crack(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/filzacrack/js.json
-
 Package: com.sini.instalauncher2
 Version: 1.11.0
 Architecture: iphoneos-arm64
