@@ -114,23 +114,6 @@ Icon2: 5.png
 Name: Filza File 文件管理器【破解补丁】-Rootless
 Sponsor: Ai-小苹果™
 
-Package: com.sergy.immortalizer
-Version: 2.0.0-1
-Architecture: iphoneos-arm
-Maintainer: sergy
-Installed-Size: 652
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
-Filename: ./debs/Immortalizer-2.0.0-1-iphoneos-arm.deb
-Size: 42808
-MD5sum: b5784390d8b43471784542d3f4b0b8ef
-SHA1: 75456a10c829d104d7bd93b29bd46db3b56521a4
-SHA256: 287cd7f3b6c9d30190618a7266dc129ef60049045c4365394f1671cc3cc4ed2b
-Section: Tweaks
-Description: Foreground your apps even if they are in the background!
-Author: sergy
-Icon: https://media.havoc.app/672ab6f3a80bcf5e2e0abe8c?w=1920&q=75
-Name: Immortalizer
-
 Package: com.simon.ccmusic
 Version: 1.0.5
 Architecture: iphoneos-arm64
