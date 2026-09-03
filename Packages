@@ -94,26 +94,6 @@ Description: 手势插件，一切从简即可。
 Author: be-huge
 Name: TieGesture-rootless(收费版)
 
-Package: com.cydiabc.filzahack-rootless
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: Ai-小苹果™
-Installed-Size: 600
-Depends: mobilesubstrate
-Filename: ./debs/Filza File 文件管理器【破解补丁】-Rootless-1.2.deb
-Size: 126036
-MD5sum: 34c3b903468b25511cdedd8d7f51dc90
-SHA1: f7b6331097b814437f375268ca35f94015f0b7bb
-SHA256: abeacf3e922ab8db1a127d42248dbd6d5eda946439ac838f62cd940bbd17ab14
-Section: 工具
-Description: Filza破解全功能插件，此补丁搭配正版Filza使用，破解版Filza请勿安装此补丁
-A12: 1
-Author: Ai-小苹果
-Icon: file:///Applications/Cydia.app/Sections/Utilities.png
-Icon2: 5.png
-Name: Filza File 文件管理器【破解补丁】-Rootless
-Sponsor: Ai-小苹果™
-
 Package: com.simon.ccmusic
 Version: 1.0.5
 Architecture: iphoneos-arm64
