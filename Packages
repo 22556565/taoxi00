@@ -443,23 +443,6 @@ Author: 冰蓝
 Name: DynamicFX
 
 Package: com.binglan.flexmusic
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: Binglan
-Installed-Size: 1496
-Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: com.binglan.music
-Replaces: com.binglan.music
-Filename: ./debs/com.binglan.flexmusic_1.0.1_iphoneos-arm64.deb
-Size: 245320
-MD5sum: f6a596a6e02968fb8596689259de98cb
-SHA1: 50ab6c0a593e82acb78f1e14a13365252870caa6
-SHA256: 838142516cb439c29f7dba1f62b69676ceceeaa35a239183e4abf0eca74450e0
-Description: 打破沉闷，唤醒界面的灵动 —— FlexMusic by Binglan
-Author: Binglan
-Name: FlexMusic
-
-Package: com.binglan.flexmusic
 Version: 1.0.7
 Architecture: iphoneos-arm64
 Maintainer: Binglan
