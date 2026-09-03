@@ -72,22 +72,6 @@ Icon: https://qi-ting-zhang.github.io/sileo/images/icon/yymk.png
 Name: 控制中心音乐模块动画
 Sileodepiction: https://qi-ting-zhang.github.io/sileo/sileodepiction/yymk.json
 
-Package: com.sini.kuku
-Version: 1.5
-Architecture: iphoneos-arm64
-Maintainer: b4db1r3
-Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, ws.hbang.common (>= 1.17)
-Filename: ./debs/KuKu Reborn(rootless)-1.5-iphoneos-arm64.deb
-Size: 254576
-MD5sum: 7162274a0ca4307258409dfc73f6379c
-SHA1: 22f254ec19d2d0ba6a3b9ea345114c9ce869bc51
-SHA256: 3f29a05b4068d6fbbeac4a713eac56058b6a20bfeba5ddbe61d584e2ed0b2a9c
-Section: 越狱插件
-Description: 自定义通知横幅
-Author: b4db1r3
-Icon: https://sini921.github.io/repo/sileodepiction/icon/kuku.png
-Name: KuKu Reborn(rootless)
-
 Package: com.sini.lynxtwo
 Version: 2.5.4
 Architecture: iphoneos-arm64
