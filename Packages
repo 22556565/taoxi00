@@ -38,21 +38,3 @@ Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 Name: ScreenShell Pro 录屏套壳
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
 
-Package: com.simon.ccmusic
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: simon
-Installed-Size: 428
-Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/控制中心音乐模块动画-1.0.5-iphoneos-arm64.deb
-Size: 28812
-MD5sum: 937a5058e592ac9c39e6c105fca4bfc7
-SHA1: c1f7b8bcbaf2cb2a788d62dc6949959147d6608d
-SHA256: 7e812ac28768f632955efca11ab064c8e1a457fd8b21abac1325dc4e66445bbf
-Section: 你的iPhone不止于此
-Description: 为控制中心的音乐模块添加动画
-Author: simon
-Icon: https://qi-ting-zhang.github.io/sileo/images/icon/yymk.png
-Name: 控制中心音乐模块动画
-Sileodepiction: https://qi-ting-zhang.github.io/sileo/sileodepiction/yymk.json
-
