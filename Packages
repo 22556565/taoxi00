@@ -92,22 +92,6 @@ Description: Give me 108 yuan.
 Author: zqbb <zqbbzz@gmail.com>
 Name: JailFools
 
-Package: com.0xkuj.safarix
-Version: 1.9.9.1
-Architecture: iphoneos-arm64
-Maintainer: 0xkuj
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: ./debs/SafariX-1.9.9.1.deb
-Size: 322132
-MD5sum: 40199d63165e3f360f48edfb24d81dea
-SHA1: e2e1bcac108e5d312162da3592914d4507a9208d
-SHA256: aabb14253d58ad555c5300761d118aec20df48bc6dca7856f787ab9f9d7620e2
-Section: 插件
-Description: Safari浏览器增强。
-Author: 0xkuj
-Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
-Name: SafariX
-
 Package: com.Axs.floating-view
 Version: 1.6.0-6
 Architecture: iphoneos-arm64
@@ -275,7 +259,7 @@ Architecture: iphoneos-arm64e
 Maintainer: be-huge
 Installed-Size: 1256
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.tie-gesture-advance_1.1.2_iphoneos-arm64e.deb
+Filename: ./debs/TieGesture-rootless(收费版)-1.1.2-iphoneos-arm64e.deb
 Size: 244244
 MD5sum: 35ab447eee7ad861d1dfe952abe5d81e
 SHA1: a5f943439a8b7c904bb2d94ab0f4f51a68f0d9cf
@@ -291,7 +275,7 @@ Architecture: iphoneos-arm64e
 Maintainer: be-huge
 Installed-Size: 1256
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/TieGesture-rootless(收费版)-1.1.2-iphoneos-arm64e.deb
+Filename: ./debs/com.be-huge.tie-gesture-advance_1.1.2_iphoneos-arm64e.deb
 Size: 244244
 MD5sum: 35ab447eee7ad861d1dfe952abe5d81e
 SHA1: a5f943439a8b7c904bb2d94ab0f4f51a68f0d9cf
@@ -401,7 +385,7 @@ Architecture: iphoneos-arm64
 Maintainer: simon
 Installed-Size: 428
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/com.simon.ccmusic_1.0.5_iphoneos-arm64.deb
+Filename: ./debs/控制中心音乐模块动画-1.0.5-iphoneos-arm64.deb
 Size: 28812
 MD5sum: 937a5058e592ac9c39e6c105fca4bfc7
 SHA1: c1f7b8bcbaf2cb2a788d62dc6949959147d6608d
@@ -419,7 +403,7 @@ Architecture: iphoneos-arm64
 Maintainer: simon
 Installed-Size: 428
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/控制中心音乐模块动画-1.0.5-iphoneos-arm64.deb
+Filename: ./debs/com.simon.ccmusic_1.0.5_iphoneos-arm64.deb
 Size: 28812
 MD5sum: 937a5058e592ac9c39e6c105fca4bfc7
 SHA1: c1f7b8bcbaf2cb2a788d62dc6949959147d6608d
@@ -559,23 +543,6 @@ Name: OneSettings(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/onesettings/js.json
 Sponsor: sini921
 
-Package: com.sini.pancake
-Version: 2.3
-Architecture: iphoneos-arm64
-Maintainer: AnthoPak <anthopakdev@gmail.com>
-Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
-Filename: ./debs/com.sini.pancake_2.3_iphoneos-arm64.deb
-Size: 113044
-MD5sum: c4f4cbf629328e609a8acded41fae849
-SHA1: 6689ca7ef9236d5deaa4134d94f98f62de60feb5
-SHA256: f00f10c46cc12e2328372ab7baca73c10764de6d08cb673529ca3d460c507dde
-Section: 越狱插件
-Description: 在屏幕上任何位置向右滑返回上一页
-Author: AnthoPak <anthopakdev@gmail.com>
-Icon: https://sini921.github.io/repo/sileodepiction/icon/pancake.png
-Name: PanCake(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/pancake/js.json
-
 Package: com.sini.qqantirecall.x
 Version: 1.6
 Architecture: iphoneos-arm64
@@ -611,39 +578,6 @@ Author: fiore & p2kdev & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
 Name: CCBorder(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
-
-Package: com.susu.collection
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 520
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./debs/com.susu.collection_1.0_iphoneos-arm64.deb
-Size: 56446
-MD5sum: b0174be21fa1fe79a9e99f836ae38e7e
-SHA1: bc5c1b8fb8c897c82f2b4789c14f6b8e254a881e
-SHA256: f624d3e4047183f116d0544b2a8887d64fe9372901dcdb0205ec8f809d1d4364
-Section: Tweaks
-Description: 自用合集插件
-Author: SuSu
-Name: SuCollection
-
-Package: com.susu.snapper3.pictapro
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 180
-Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
-Filename: ./debs/PictaPro-1.0.1.deb
-Size: 10620
-MD5sum: 642e9176c818d33172e5a64406364120
-SHA1: db788e2d87875b5eb379ca0907701cce7ba80edb
-SHA256: d2c94af2fd040bc74674621dad7e701e15a992f3cc6569ce2c4ed1d93e31f5f4
-Section: Tweaks
-Description: PictaPro适配 Snapper3 的插件
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/PictaPro.png
-Name: PictaPro
 
 Package: com.susudear.stayshot.long-screenshot
 Version: 1.5.0
@@ -697,24 +631,6 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: 系统增强SystemX
 
-Package: com.wkk.betteruiswitchs
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: TiaoTiao
-Installed-Size: 232
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: byg.iosios.net.betteruiswitch, com.tiaotiao.betteruiswitch
-Filename: ./debs/JB-1.1.deb
-Size: 58436
-MD5sum: f86008f89dd6fa68cb3cd39572e70d44
-SHA1: dcf52fec5b1ff233261a861412e711bb25c7ecd3
-SHA256: bd4506b551a71d77e78199ac3825a933d346b73156185788eb840d1ddc093617
-Section: 美化
-Description: 修改开关按钮 UI 为 JB/B
-Author: TiaoTiao
-Icon: https://TrollStoreX.Github.io/sileodepiction/BetterUISwitch/icon.png
-Name: JB按钮
-
 Package: com.wkk.carbridge13
 Version: 2.0.15
 Architecture: iphoneos-arm64
@@ -733,23 +649,6 @@ Author: leftyfl1p <carbridge@havoc.app>
 Depiction: https://havoc.app/package/carbridge
 Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
 Name: CarBridge
-
-Package: com.wkk.ersatz
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: Skitty
-Installed-Size: 408
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/Ersatz-1.0.deb
-Size: 32492
-MD5sum: e7e93d30c83f989513d69ee1196b4f76
-SHA1: 7687060713c57612f9ad7523c14f646e5f3a5cde
-SHA256: fe30895a108553db33befca1afafe28a0c40c392c44e8a94bea0a97a81357780
-Section: Tweaks
-Description: 替换系统范围内的任何文本。
-Author: Skitty
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ersatz.png
-Name: Ersatz
 
 Package: com.wkk.kayoko
 Version: 3.0
