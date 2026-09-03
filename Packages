@@ -442,22 +442,6 @@ Description: 控制中心快捷控制全局水印开关，安装后注销生效�
 Author: 冰蓝
 Name: 全局水印模块
 
-Package: com.binglanqjsy.deb
-Version: 4.1.6-end
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 2464
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.binglanqjsy.deb_4.1.6-end_iphoneos-arm64.deb
-Size: 485144
-MD5sum: 5326b4462bc36af609bca9edb03dc07b
-SHA1: 24224cbc133791023204a395825c5227cad63ac7
-SHA256: f54f2002951ebe03be59592a74d9a7cb984d581338807c392d9e7602aa3fa122
-Section: Tweaks
-Description: 让简单截图，拥有更多可能。
-Author: 冰蓝
-Name: 全局水印Pro
-
 Package: com.charlieleung.snapvision
 Version: 0.0.1
 Architecture: iphoneos-arm64
