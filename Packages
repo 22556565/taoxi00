@@ -56,30 +56,6 @@ Icon: https://axs66.github.io/pro/icon/switchtheme.png
 Name: 日月开关
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchtheme/js.json
 
-Package: com.axs.axon
-Version: 5.2.0-55
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 552
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Filename: ./debs/com.axs.axon_5.2.0-55_iphoneos-arm64.deb
-Size: 65554
-MD5sum: 27f3f4317ae065545f8e5468a9efac01
-SHA1: 3ea4413b6c3c6845bc60fa3d01a8e5330fb3faf2
-SHA256: fe2a3e43e8d8555e0b8e13c24ec87c984575a30353903add7a34bb474252a025
-Section: Axs-Tweaks
-Description: Priority Hub for iOS 16 - 将锁屏通知按应用智能分组。
- * 1.按应用分组管理通知，一目了然
- * 2.支持水平/垂直布局、多种图标样式
- * 3.触觉反馈、深色模式、角标数量显示
- * 4.按时间/应用名/通知数量排序
- * 5.自定义间距、对齐方式、位置
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/axon.png
-Name: Axon
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
-
 Package: com.axs.screenshellpro
 Version: 5.2.0-61
 Architecture: iphoneos-arm64
@@ -101,32 +77,6 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 Name: ScreenShell Pro 录屏套壳
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
-
-Package: com.axs.snapper3tag
-Version: 5.2.0-16
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 240
-Depends: mobilesubstrate
-Filename: ./debs/com.axs.snapper3tag_5.2.0-16_iphoneos-arm64.deb
-Size: 26878
-MD5sum: c2180541e3ea1f5d08f838000f93cdde
-SHA1: 999dc32113742814a148fda146c906663c89b4ec
-SHA256: ebb9c7aeb413e52b4a991b14eab3b4beb2e3a9dcbeea8079dc80ff49265bb1a0
-Section: Axs-Tweaks
-Description: Snapper3 截图标记扩展插件。
- * 颜色选择器：红/黄/蓝/绿/白/黑等6种颜色；
- * 箭头标记：手指拖拽绘制方向箭头；
- * 自由画线：手指跟随绘制任意曲线；
- * 矩形图标：点1次是矩形描边、点2次是矩形填充；
- * 撤回操作：一键撤销上一步标注；
- * 保存相册：渲染并写入系统相册；
- * 复制剪贴板：一键复制标注后截图；
- * 自定义图标：将 tag.png / tag_menu.png 放入 /var/mobile/Axs/Snapper3图标/ 即可替换。
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/snapper.png
-Name: Snapper3Tag
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper3tag/js.json
 
 Package: com.be-huge.tie-gesture-advance
 Version: 1.1.2
