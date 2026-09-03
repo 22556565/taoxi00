@@ -184,24 +184,6 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/qqantirecall.x.png
 Name: NTQQ_AntiRecall(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/qqantirecall.x/js.json
 
-Package: com.susudear.stayshot.markup
-Version: 1.6.1
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 640
-Depends: com.susudear.stayshot (>= 0.5.1), mobilesubstrate, firmware (>= 15.1)
-Filename: ./debs/StayShot Edit-1.6.1.deb
-Size: 153344
-MD5sum: bbb33c0e1872c845ed10ce945dce8d6a
-SHA1: 2262300f152e7a6878e670938d8b0b11c366d242
-SHA256: 404464cabe970a1e13cc2d1b8202663f7fc933789fb13fa50cfafd91b45e5245
-Section: Tweaks
-Description: StayShot Edit 的冻结截图编辑扩展，支持箭头、涂鸦、高亮、马赛克和方框，并支持复制或保存编辑结果。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot Edit
-Sileodepiction: https://repo.susubaby.cn/json/stayshotedit.json
-
 Package: com.wkk.Systemxxxxx
 Version: 1.2-2
 Architecture: iphoneos-arm64
