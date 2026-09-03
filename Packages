@@ -90,24 +90,6 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/lynxtwo.png
 Name: Lynx 2(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/lynxtwo/js.json
 
-Package: com.sini.qqantirecall.x
-Version: 1.6
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 1084
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/NTQQ AntiRecall(rootless)-1.6.deb
-Size: 1335416
-MD5sum: 529b91df18b962ed63f0a8f0281f207a
-SHA1: 1b74bf3d793f9d9183d7fc26c9b037f99dac0b7f
-SHA256: 2f1531a7a74e33679c9b9f83f51352baec4917a57394852d1ba5cf95944ab608
-Section: 应用破解
-Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
-Author: 𝙓
-Icon: https://sini921.github.io/repo/sileodepiction/icon/qqantirecall.x.png
-Name: NTQQ_AntiRecall(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/qqantirecall.x/js.json
-
 Package: com.wkk.removewidgetbg
 Version: 2.0
 Architecture: iphoneos-arm64
