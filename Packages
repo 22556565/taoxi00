@@ -336,7 +336,7 @@ Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 1112
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/bullet-rootless-1.0.7-iphoneos-arm64.deb
+Filename: ./debs/com.be-huge.bullet_1.0.7_iphoneos-arm64.deb
 Size: 211050
 MD5sum: bf3db2e96b833c8da1d648d4a16c67b9
 SHA1: d1d1869a788f23bf5fb21390cb1a5d020934528a
@@ -352,7 +352,7 @@ Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 1112
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.bullet_1.0.7_iphoneos-arm64.deb
+Filename: ./debs/bullet-rootless-1.0.7-iphoneos-arm64.deb
 Size: 211050
 MD5sum: bf3db2e96b833c8da1d648d4a16c67b9
 SHA1: d1d1869a788f23bf5fb21390cb1a5d020934528a
@@ -400,7 +400,7 @@ Architecture: iphoneos-arm64e
 Maintainer: be-huge
 Installed-Size: 1256
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/TieGesture-rootless(收费版)-1.1.2-iphoneos-arm64e.deb
+Filename: ./debs/com.be-huge.tie-gesture-advance_1.1.2_iphoneos-arm64e.deb
 Size: 244244
 MD5sum: 35ab447eee7ad861d1dfe952abe5d81e
 SHA1: a5f943439a8b7c904bb2d94ab0f4f51a68f0d9cf
@@ -416,7 +416,7 @@ Architecture: iphoneos-arm64e
 Maintainer: be-huge
 Installed-Size: 1256
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.tie-gesture-advance_1.1.2_iphoneos-arm64e.deb
+Filename: ./debs/TieGesture-rootless(收费版)-1.1.2-iphoneos-arm64e.deb
 Size: 244244
 MD5sum: 35ab447eee7ad861d1dfe952abe5d81e
 SHA1: a5f943439a8b7c904bb2d94ab0f4f51a68f0d9cf
@@ -425,72 +425,6 @@ Section: Tweaks
 Description: 手势插件，一切从简即可。
 Author: be-huge
 Name: TieGesture-rootless(收费版)
-
-Package: com.binglan.dynamicfx
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 772
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: ./debs/com.binglan.dynamicfx_1.0.7_iphoneos-arm64.deb
-Size: 116200
-MD5sum: 05a77edf63e6ce60a9617db71dae7dd8
-SHA1: 45d7cc1bf7d327f6c46f6c243e007b5bddc87db1
-SHA256: 3f11f776910d3b787714fa344f2d6a1f5dea8661d52cd838d62bd3b438288fc6
-Section: Tweaks
-Description: 灵动岛背景？
-Author: 冰蓝
-Name: DynamicFX
-
-Package: com.binglan.flexmusic
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: Binglan
-Installed-Size: 2180
-Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: com.binglan.music
-Replaces: com.binglan.music
-Filename: ./debs/com.binglan.flexmusic_1.0.7_iphoneos-arm64.deb
-Size: 373028
-MD5sum: 28a632f49ffc8d874216bd1cd16c774c
-SHA1: 5df73a56c624fe12f50f015fe9154e6c18251b4a
-SHA256: 2e70d060ba965b98d252b08985d6a1ada3457d88b9662897a9dabc4d7ffde3f4
-Description: 打破沉闷，唤醒界面的灵动 — by Binglan
-Author: Binglan
-Name: FlexMusic
-
-Package: com.binglan.kongzhidiy
-Version: 2.3.6-end
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 8024
-Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
-Filename: ./debs/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64.deb
-Size: 3737830
-MD5sum: c41451e2abd93846ec2ce0876603fd3c
-SHA1: 269b1fc174a86037f9a9f8e18975d533817770c2
-SHA256: 353a6bd6843867713774414fe5d4bad552580ec5c4fee8e37e01b451d456fe57
-Section: Tweaks
-Description: 控制中心中心美化？
-Author: binglan
-Icon: https://i.imgs.ovh/2026/06/10/dfb8c206be141bb3c7d070b29d0d9d56.jpg
-Name: CCPrimeX
-
-Package: com.binglan.nb23
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 280
-Depends: firmware (>= 15.0), mobilesubstrate | ellekit
-Filename: ./debs/com.binglan.nb23_0.0.2_iphoneos-arm64.deb
-Size: 39680
-MD5sum: f53984e90a01eca3c68b07033f4ee7bc
-SHA1: b45fa2ce41b5dcf684292b0a400cf89528e38511
-SHA256: a72adc8d4a167ff83e3be13c3045834ed4c5293541bc0ce925a89b5d8283ca46
-Section: Tweaks
-Description: 神秘功能
-Author: binglan
-Name: CC控制中心视频模块
 
 Package: com.binglan.qjsymk
 Version: 1.0.16
@@ -519,22 +453,6 @@ Size: 485144
 MD5sum: 5326b4462bc36af609bca9edb03dc07b
 SHA1: 24224cbc133791023204a395825c5227cad63ac7
 SHA256: f54f2002951ebe03be59592a74d9a7cb984d581338807c392d9e7602aa3fa122
-Section: Tweaks
-Description: 让简单截图，拥有更多可能。
-Author: 冰蓝
-Name: 全局水印Pro
-
-Package: com.binglanqjsy.deb
-Version: 4.1.7-end
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 2576
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.binglanqjsy.deb_4.1.7-end_iphoneos-arm64.deb
-Size: 522792
-MD5sum: aac68325377dbffabb2c17c428045db2
-SHA1: 02899ab3ca47bd63c55d54833710ec467221b226
-SHA256: 26c43d21631de9e4febc4cbc69dfb0e559772720a5ebdd6e30cf0dbad27c3258
 Section: Tweaks
 Description: 让简单截图，拥有更多可能。
 Author: 冰蓝
@@ -727,7 +645,7 @@ Architecture: iphoneos-arm64
 Maintainer: simon
 Installed-Size: 428
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/控制中心音乐模块动画-1.0.5-iphoneos-arm64.deb
+Filename: ./debs/com.simon.ccmusic_1.0.5_iphoneos-arm64.deb
 Size: 28812
 MD5sum: 937a5058e592ac9c39e6c105fca4bfc7
 SHA1: c1f7b8bcbaf2cb2a788d62dc6949959147d6608d
@@ -745,7 +663,7 @@ Architecture: iphoneos-arm64
 Maintainer: simon
 Installed-Size: 428
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/com.simon.ccmusic_1.0.5_iphoneos-arm64.deb
+Filename: ./debs/控制中心音乐模块动画-1.0.5-iphoneos-arm64.deb
 Size: 28812
 MD5sum: 937a5058e592ac9c39e6c105fca4bfc7
 SHA1: c1f7b8bcbaf2cb2a788d62dc6949959147d6608d
@@ -1255,42 +1173,6 @@ Depiction: https://havoc.app/package/carbridge
 Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
 Name: CarBridge
 
-Package: com.wkk.carbridge13
-Version: 2.0.15
-Architecture: iphoneos-arm64
-Maintainer: leftyfl1p
-Installed-Size: 7344
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
-Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: ./debs/com.wkk.carbridge13_2.0.15_iphoneos-arm64.deb
-Size: 434060
-MD5sum: d29984c700181b7237fc00714782cdba
-SHA1: 6b2c8d944f0a0cbe8f56bf381618ca69dceb3623
-SHA256: 276bf205faffecbd71323f3a11f6b4714b0603de300deb0b006a7bc4eb61e59a
-Section: Tweaks
-Description: Open any app in CarPlay!（正版砸壳，有能力请支持正版）
-Author: leftyfl1p <carbridge@havoc.app>
-Depiction: https://havoc.app/package/carbridge
-Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
-Name: CarBridge
-
-Package: com.wkk.copylogx
-Version: 1.0-8
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 1612
-Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.wkk.copylogx_1.0-8_iphoneos-arm64e.deb
-Size: 222582
-MD5sum: 5f9c6f6c84fb89a7b6ab06f50a54eb78
-SHA1: 8aaa8065b20769aad9a804f78c2892e1e6314286
-SHA256: 6cf43c6db6ace7b818fffd167026f9c5801778048c011aab0997661835a1e11b
-Section: Tweaks
-Description: A lightweight clipboard panel for iOS.
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: CopylogX
-
 Package: com.wkk.ersatz
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -1399,22 +1281,6 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/01/06/75dc8800d1c97029204392465be466b4.jpeg
 Name: 皮卡丘注销动画
 
-Package: com.wkk.recordeyex
-Version: 1.0-5
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 532
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/com.wkk.recordeyex_1.0-5_iphoneos-arm64e.deb
-Size: 67006
-MD5sum: ed808fa1f4e2493274c08df2ff7e03af
-SHA1: 2c0ae5d3e5c9a992eff34b52fd0ea256f2c93700
-SHA256: c9200ed63582f999bc7e59cd852ae26e6197b249b20c2d360a13aeb9d6644d9d
-Section: Tweaks
-Description: 自定义快捷录屏的灵动岛录制指示点。
-Author: wkk
-Name: RecordEyeX
-
 Package: com.wkk.removewidgetbg
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -1467,30 +1333,13 @@ Author: 苏苏
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: StoreSwitcher2
 
-Package: com.wkk.systembox
-Version: 1.2-3
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 1076
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.wkk.systembox_1.2-3_iphoneos-arm64.deb
-Size: 219072
-MD5sum: 8afa4139ce66ebd979aadfd54f070791
-SHA1: ce2f9aa57174d2a5fde3773e41c991bc52f385c3
-SHA256: f40e242bc83bc8269220af0265ef5ec1534d8753769e2fcb42956c1e64607f0b
-Section: Tweaks
-Description: cool
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: SystemX
-
 Package: com.wkk.trollopenjb
 Version: 1.3.7
 Architecture: iphoneos-arm64
 Maintainer: Charlie Leung
 Installed-Size: 4460
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: ./debs/com.wkk.trollopenjb_1.3.7_iphoneos-arm64.deb
+Filename: ./debs/TrollOpen-1.3.7-iphoneos-arm64.deb
 Size: 1121168
 MD5sum: 42e6e0856334fd53b8c551b23bbca823
 SHA1: bb99613e74b87bd495d0faffdac5ab503a5a8f3c
@@ -1507,7 +1356,7 @@ Architecture: iphoneos-arm64
 Maintainer: Charlie Leung
 Installed-Size: 4460
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: ./debs/TrollOpen-1.3.7-iphoneos-arm64.deb
+Filename: ./debs/com.wkk.trollopenjb_1.3.7_iphoneos-arm64.deb
 Size: 1121168
 MD5sum: 42e6e0856334fd53b8c551b23bbca823
 SHA1: bb99613e74b87bd495d0faffdac5ab503a5a8f3c
