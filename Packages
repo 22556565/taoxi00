@@ -336,7 +336,7 @@ Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 1112
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.bullet_1.0.7_iphoneos-arm64.deb
+Filename: ./debs/bullet-rootless-1.0.7-iphoneos-arm64.deb
 Size: 211050
 MD5sum: bf3db2e96b833c8da1d648d4a16c67b9
 SHA1: d1d1869a788f23bf5fb21390cb1a5d020934528a
@@ -352,7 +352,7 @@ Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 1112
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/bullet-rootless-1.0.7-iphoneos-arm64.deb
+Filename: ./debs/com.be-huge.bullet_1.0.7_iphoneos-arm64.deb
 Size: 211050
 MD5sum: bf3db2e96b833c8da1d648d4a16c67b9
 SHA1: d1d1869a788f23bf5fb21390cb1a5d020934528a
@@ -400,7 +400,7 @@ Architecture: iphoneos-arm64e
 Maintainer: be-huge
 Installed-Size: 1256
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.tie-gesture-advance_1.1.2_iphoneos-arm64e.deb
+Filename: ./debs/TieGesture-rootless(收费版)-1.1.2-iphoneos-arm64e.deb
 Size: 244244
 MD5sum: 35ab447eee7ad861d1dfe952abe5d81e
 SHA1: a5f943439a8b7c904bb2d94ab0f4f51a68f0d9cf
@@ -416,7 +416,7 @@ Architecture: iphoneos-arm64e
 Maintainer: be-huge
 Installed-Size: 1256
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/TieGesture-rootless(收费版)-1.1.2-iphoneos-arm64e.deb
+Filename: ./debs/com.be-huge.tie-gesture-advance_1.1.2_iphoneos-arm64e.deb
 Size: 244244
 MD5sum: 35ab447eee7ad861d1dfe952abe5d81e
 SHA1: a5f943439a8b7c904bb2d94ab0f4f51a68f0d9cf
@@ -425,22 +425,6 @@ Section: Tweaks
 Description: 手势插件，一切从简即可。
 Author: be-huge
 Name: TieGesture-rootless(收费版)
-
-Package: com.binglan.qjsymk
-Version: 1.0.16
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 212
-Depends: firmware (>= 15.0), mobilesubstrate | ellekit
-Filename: ./debs/com.binglan.qjsymk_1.0.16_iphoneos-arm64.deb
-Size: 18914
-MD5sum: 79068b516d664ef0d56c99a0bb7b33d2
-SHA1: 250168b2f5a95c24289ee735f29fed0d8148d3fb
-SHA256: 8ca231ae94f13f34ebb2055c65a487d5e1bf56d4b2c98e27810dac3b375e15d7
-Section: Tweaks
-Description: 控制中心快捷控制全局水印开关，安装后注销生效。
-Author: 冰蓝
-Name: 全局水印模块
 
 Package: com.charlieleung.snapvision
 Version: 0.0.1
@@ -629,7 +613,7 @@ Architecture: iphoneos-arm64
 Maintainer: simon
 Installed-Size: 428
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/com.simon.ccmusic_1.0.5_iphoneos-arm64.deb
+Filename: ./debs/控制中心音乐模块动画-1.0.5-iphoneos-arm64.deb
 Size: 28812
 MD5sum: 937a5058e592ac9c39e6c105fca4bfc7
 SHA1: c1f7b8bcbaf2cb2a788d62dc6949959147d6608d
@@ -647,7 +631,7 @@ Architecture: iphoneos-arm64
 Maintainer: simon
 Installed-Size: 428
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/控制中心音乐模块动画-1.0.5-iphoneos-arm64.deb
+Filename: ./debs/com.simon.ccmusic_1.0.5_iphoneos-arm64.deb
 Size: 28812
 MD5sum: 937a5058e592ac9c39e6c105fca4bfc7
 SHA1: c1f7b8bcbaf2cb2a788d62dc6949959147d6608d
@@ -1323,7 +1307,7 @@ Architecture: iphoneos-arm64
 Maintainer: Charlie Leung
 Installed-Size: 4460
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: ./debs/TrollOpen-1.3.7-iphoneos-arm64.deb
+Filename: ./debs/com.wkk.trollopenjb_1.3.7_iphoneos-arm64.deb
 Size: 1121168
 MD5sum: 42e6e0856334fd53b8c551b23bbca823
 SHA1: bb99613e74b87bd495d0faffdac5ab503a5a8f3c
@@ -1340,7 +1324,7 @@ Architecture: iphoneos-arm64
 Maintainer: Charlie Leung
 Installed-Size: 4460
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: ./debs/com.wkk.trollopenjb_1.3.7_iphoneos-arm64.deb
+Filename: ./debs/TrollOpen-1.3.7-iphoneos-arm64.deb
 Size: 1121168
 MD5sum: 42e6e0856334fd53b8c551b23bbca823
 SHA1: bb99613e74b87bd495d0faffdac5ab503a5a8f3c
