@@ -38,22 +38,6 @@ Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 Name: ScreenShell Pro 录屏套壳
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
 
-Package: com.be-huge.tie-gesture-advance
-Version: 1.1.2
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 1256
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/TieGesture-rootless(收费版)-1.1.2-iphoneos-arm64e.deb
-Size: 244244
-MD5sum: 35ab447eee7ad861d1dfe952abe5d81e
-SHA1: a5f943439a8b7c904bb2d94ab0f4f51a68f0d9cf
-SHA256: f3717e4b3b8772446177ec31de106832b8159f7e1ed1266aee19e923f520e838
-Section: Tweaks
-Description: 手势插件，一切从简即可。
-Author: be-huge
-Name: TieGesture-rootless(收费版)
-
 Package: com.simon.ccmusic
 Version: 1.0.5
 Architecture: iphoneos-arm64
