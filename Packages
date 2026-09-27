@@ -1,3 +1,26 @@
+Package: com.axs.ios16dao
+Version: 5.2.0-244
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 704
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/com.axs.ios16dao_5.2.0-244_iphoneos-arm64.deb
+Size: 87668
+MD5sum: ba6f5f44cccec52158526634ab14cf65
+SHA1: 589a5038d6dcd02a4e5b446c2fe347ad43257791
+SHA256: c85e0fbc9325049bc1d1e2125a1ad44961cb8cf5322196a0bc6329b84506a1d3
+Section: 灵动岛
+Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。集成授权校验联系:VCR66T
+ * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
+ * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
+ * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
+ * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+Name: ios16~17动态岛
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+
 Package: com.axs.screenshellpro
 Version: 5.2.0-61
 Architecture: iphoneos-arm64
