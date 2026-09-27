@@ -212,3 +212,35 @@ Author: ZuoTian
 Icon: https://i.imgs.ovh/2026/09/18/25b589ca00c101bd98d8d9abb2688da0.png
 Name: 控制中心动态
 
+Package: com.taoxi.ccwallpaper
+Version: 0.0.14
+Architecture: iphoneos-arm64
+Maintainer: Taoxi
+Installed-Size: 324
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 16.0), firmware (<< 17.0)
+Filename: ./debs/11.deb
+Size: 63170
+MD5sum: bf4b7abe5da26ba8b3386efbe0d97b8f
+SHA1: c5902c22643ce1eddd6f8a7578c8bac12974b4f3
+SHA256: b8b1726ee7f297982f611695493ac9c57817c207d4863c85c86c60d67e26f6f2
+Section: Tweaks
+Description: 为控制中心提供可即时切换的图片和视频壁纸库，并包含快捷选择模块
+Author: Taoxi
+Name: CCWallpaper
+
+Package: com.taoxi.globalopenalert
+Version: 2.3.9
+Architecture: iphoneos-arm64e
+Maintainer: Taoxi
+Installed-Size: 592
+Depends: firmware (>= 15.0), ellekit, preferenceloader
+Filename: ./debs/111.deb
+Size: 95670
+MD5sum: adf2d200dedac71e7987d157213fc263
+SHA1: 0960edd8e16bbf2d957b8aa81d2ec6742b94370b
+SHA256: 0efbc46f47b7cf1b9ed1cccaa6559976d711ed302d9381a20f8c67c62f413086
+Section: Tweaks
+Description: 只占内存且无软用的插件
+Author: Taoxi
+Name: GlobalOpenAlert
+
