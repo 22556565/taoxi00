@@ -304,6 +304,23 @@ Author: simon
 Icon: https://huayuarc.github.io/icon/CCWeatherModule.png
 Name: 控制中心天气
 
+Package: com.simon.ccweathermodule
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Maintainer: simon
+Installed-Size: 976
+Depends: mobilesubstrate, com.opa334.ccsupport, firmware (>= 14.0)
+Filename: ./debs/com.simon.ccweathermodule_1.2.4_iphoneos-arm64.deb
+Size: 227382
+MD5sum: deaa732f903a91f74e6e0a66d190fa67
+SHA1: bc1828f89a64c330b047fe5058e18972cf7a8691
+SHA256: 5b183edc9468045fb8dc366a1de55b744e4000df0871cd941b2d2280de78d5d9
+Section: Tweaks
+Description: 控制中心的天气模块。 显示当前天气、温度和每小时预报。
+Author: simon
+Icon: https://i.imgs.ovh/2026/09/20/17d0953ee53152da8e61955e8bcf444a.png
+Name: CCWeather Module
+
 Package: com.simon.controlcenterlayout
 Version: 2.1
 Architecture: iphoneos-arm64e
