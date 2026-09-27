@@ -125,6 +125,24 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.be-huge.insulation
+Version: 0.1.31
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 628
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.be-huge.insulation_0.1.31_iphoneos-arm64e.deb
+Size: 51436
+MD5sum: 9418c739e38fc47cee56faff734f508f
+SHA1: 6e213b862c5fb112044e99812653623e14732cef
+SHA256: 7f869797fdfc0871cad0828b6f28e7f25d4044c44963f5879383eed98649fbe4
+Section: Tweaks
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Author: be-huge & doimty
+Icon: https://huayuarc.github.io/icon/Insulation.png
+Name: insulation
+
 Package: com.binglanqjsy.deb
 Version: 3.0.0
 Architecture: iphoneos-arm64
