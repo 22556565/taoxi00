@@ -194,6 +194,23 @@ Icon: https://axs66.github.io/pro/icon/trollopenjb.png
 Name: TrollOpen 分屏
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopenjb/js.json
 
+Package: com.iosdump.customccbg
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customccbg_0.0.1_iphoneos-arm64e.deb
+Size: 45560
+MD5sum: 4b768f06a30e8034249c22ead600e020
+SHA1: 7b6637561366d5a2e683a91dcd20361aaf7c8999
+SHA256: d25d70a57f4727b883f9a576d1484ec1d8521f6c6cce4d3e92537a22ee528c14
+Section: Tweaks
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Icon: https://huayuarc.github.io/icon/CustomCCBg.png
+Name: 控制中心背景自定义
+
 Package: com.minis.rainbowkeyboard
 Version: 1.2.3
 Architecture: iphoneos-arm64e
