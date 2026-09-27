@@ -142,3 +142,22 @@ Author: 苏苏
 Icon: https://www.susubaby.top/images/sumusicplayercc.png
 Name: SuMusicPlayerCC
 
+Package: com.taoxi.ccdynamic
+Version: 0.0.75
+Architecture: iphoneos-arm64
+Maintainer: ZuoTian
+Installed-Size: 1436
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.taoxi.ccicongif, com.taoxi.ccdynamic.experimental
+Replaces: com.taoxi.ccicongif
+Filename: ./debs/CCDynamic-0.0.75-private-avatar.deb
+Size: 628632
+MD5sum: abcc64fc55aa68dec5e95c242918717a
+SHA1: 3d57c1d7343af249cf1f77960a7727cbcf97e414
+SHA256: 6dff11649c3eef36bcf594684412450b4ffbd0bc9ab4fb2a7e946625278f1ddc
+Section: Tweaks
+Description: 为控制中心模块添加自定义 GIF 动画图标和视频背景，让控制中心更加生动有趣
+Author: ZuoTian
+Icon: https://i.imgs.ovh/2026/09/18/25b589ca00c101bd98d8d9abb2688da0.png
+Name: 控制中心动态
+
