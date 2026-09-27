@@ -252,6 +252,24 @@ Author: simon
 Icon: https://huayuarc.github.io/icon/CCWeatherModule.png
 Name: 控制中心天气
 
+Package: com.simon.controlcenterlayout
+Version: 2.1
+Architecture: iphoneos-arm64e
+Maintainer: Simon
+Installed-Size: 620
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.simon.controlcenterlayout_2.1_iphoneos-arm64e.deb
+Size: 88860
+MD5sum: d6a9d87623a9a879ad418ba900b04177
+SHA1: 7dc8adea3ef051382bf61d75221de1504bdeef24
+SHA256: 6bebd1e5bc18e1458f9f2fb14238bccf64d46f7742f237afb463c575eabda6d6
+Section: Tweaks
+Description: 用于部分自用控制中心模块2x1布局以及素材替换，半越狱不再卑微。
+Author: Simon
+Icon: https://huayuarc.github.io/icon/controlcenterlayout.jpg
+Name: 控制中心模块
+
 Package: com.susu.sumusicplayercc
 Version: 1.0.1
 Architecture: iphoneos-arm64
