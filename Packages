@@ -247,6 +247,29 @@ Icon: https://huayuarc.github.io/icon/CustomCCBg.png
 Name: 控制中心背景自定义
 
 Package: com.minis.rainbowkeyboard
+Version: 1.1.6
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/11.deb
+Size: 596668
+MD5sum: 8cd280725b91a4380c99130fb9fa504f
+SHA1: 2a7ac28a3672a76cd3ccbcd5383dc1020f1e0884
+SHA256: e56fcc13e4f5a7e44f8d722e8bccb1e765472e90b4c5656d9fb5fb5c72b06898
+Section: Tweaks
+Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
+ 自定义键盘底色、键帽颜色、霓虹亮度与浓淡。
+ 支持粗彩色键框、键缝背光、候选词渐变及独立开关。
+ 设置内含离线详情与效果预览。
+ 支持跨 App 配色同步，每个滑条附有作用与调节说明。
+ 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光至强光，无键内混色。
+ 优化配置重复读取与键盘重刷，增加 QQ 浅色键盘配色兼容。
+ 优化输入事件路径，减少巨魔/越狱 App 打字时的主线程扫描与整键盘重绘。
+Author: MoWang
+Name: 彩虹键盘光效
+
+Package: com.minis.rainbowkeyboard
 Version: 1.2.3
 Architecture: iphoneos-arm64e
 Maintainer: MoWang
@@ -390,22 +413,6 @@ Description: 为控制中心模块添加自定义 GIF 动画图标和视频背�
 Author: ZuoTian
 Icon: https://i.imgs.ovh/2026/09/18/25b589ca00c101bd98d8d9abb2688da0.png
 Name: 控制中心动态
-
-Package: com.taoxi.ccwallpaper
-Version: 0.0.14
-Architecture: iphoneos-arm64
-Maintainer: Taoxi
-Installed-Size: 324
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 16.0), firmware (<< 17.0)
-Filename: ./debs/11.deb
-Size: 63170
-MD5sum: bf4b7abe5da26ba8b3386efbe0d97b8f
-SHA1: c5902c22643ce1eddd6f8a7578c8bac12974b4f3
-SHA256: b8b1726ee7f297982f611695493ac9c57817c207d4863c85c86c60d67e26f6f2
-Section: Tweaks
-Description: 为控制中心提供可即时切换的图片和视频壁纸库，并包含快捷选择模块
-Author: Taoxi
-Name: CCWallpaper
 
 Package: com.taoxi.globalopenalert
 Version: 2.3.9
