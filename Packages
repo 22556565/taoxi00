@@ -1,3 +1,19 @@
+Package: com.OldAbi
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: macOS
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.OldAbi_0.0.2_iphoneos-arm64e.deb
+Size: 173788
+MD5sum: 76e90c6cacb380d044f30985fafa34a1
+SHA1: ca959f04627bca6ba32f16590c0842b63270257e
+SHA256: fab797f3210284c7218bc7c528988edd2c7091b8281a9ec511cdc843aa06c139
+Section: Tweaks
+Description: OldAbi
+Author: macOS
+Name: OldAbi
+
 Package: com.axs.ios16dao
 Version: 5.2.0-244
 Architecture: iphoneos-arm64
