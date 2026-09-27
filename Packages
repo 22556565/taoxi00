@@ -194,6 +194,46 @@ Icon: https://axs66.github.io/pro/icon/trollopenjb.png
 Name: TrollOpen 分屏
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopenjb/js.json
 
+Package: com.minis.rainbowkeyboard
+Version: 1.2.3
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 1016
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.minis.rainbowkeyboard_1.2.3_iphoneos-arm64e.deb
+Size: 611556
+MD5sum: c3936c8cfbbef6807102a9ac921da81e
+SHA1: f9ba0987599c817e4313a565f39a3da5112579e7
+SHA256: 6ff53395beaaa1cbf7672e0aa91950e66eca0be181893318dcf4a74166efe884
+Section: Tweaks
+Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
+ 自定义键盘底色、键帽颜色、霓虹亮度与浓淡。 支持粗彩色键框、键缝背光、候选词渐变及独立开关。
+ 设置内含离线详情与效果预览。 支持跨 App 配色同步，每个滑条附有作用与调节说明。 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光至强光，无键内混色。
+ 优化配置重复读取与键盘重刷，增加 QQ 浅色键盘配色兼容。
+ 优化输入事件路径，减少巨魔/越狱 App 打字时的主线程扫描与整键盘重绘。
+ 更新说明：更新键帽主题 and 键盘主题
+Author: MoWang
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Name: 彩虹键盘光效
+
+Package: com.simon.ccweathermodule
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: simon
+Installed-Size: 356
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.simon.ccweathermodule_1.0.4_iphoneos-arm64e.deb
+Size: 92184
+MD5sum: b99e0ac3447fe6ad4c2771578677adaa
+SHA1: 2005a4ada739fff6e97632376359581254474999
+SHA256: 296e90278bc1f4785bef4f9265247305319df454f6f0c2c8585da325a5c43dcd
+Section: Tweaks
+Description: 控制中心的天气模块。 显示当前天气、温度和每小时预报。
+Author: simon
+Icon: https://huayuarc.github.io/icon/CCWeatherModule.png
+Name: 控制中心天气
+
 Package: com.susu.sumusicplayercc
 Version: 1.0.1
 Architecture: iphoneos-arm64
