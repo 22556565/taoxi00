@@ -339,6 +339,22 @@ Author: Simon
 Icon: https://huayuarc.github.io/icon/controlcenterlayout.jpg
 Name: 控制中心模块
 
+Package: com.simon.spectrums
+Version: 3.1.2
+Architecture: iphoneos-arm64e
+Maintainer: Simon
+Installed-Size: 1348
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.simon.spectrums_3.1.2_iphoneos-arm64e.deb
+Size: 215678
+MD5sum: 11cb962e5fddc554c9d8949884ad3e43
+SHA1: da07402eee9d87aefdae72b2434cdfda245479f2
+SHA256: 3e5b4b55140a19dde3fb97d90baa9a1007f827b9d39e4057f6cd1b9b545b4695
+Section: Tweaks
+Description: 去掉音轨在17系统上面的小黑块，动感专辑圆环均衡器，17系统不再卑微！
+Author: Simon
+Name: spectrums
+
 Package: com.susu.sumusicplayercc
 Version: 1.0.1
 Architecture: iphoneos-arm64
