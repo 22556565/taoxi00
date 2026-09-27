@@ -43,3 +43,19 @@ Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 Name: ScreenShell Pro 录屏套壳
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
 
+Package: com.be-huge.floating-view
+Version: 1.6.0-1
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 3136
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.floating-view_1.6.0-1_iphoneos-arm64.deb
+Size: 616050
+MD5sum: cf0e37d6c8faf8d84a58d52084e57ec1
+SHA1: 989b56c37a05c6e8c7160d42bed7534babeebdfb
+SHA256: 33ad14d4ffdd611c5abbe1f0f7573f686c9f9cce36e77c12249ea45d1cef3266
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
