@@ -125,6 +125,22 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.binglanqjsy.deb
+Version: 3.0.0
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 908
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Filename: ./debs/3.0.0-iphoneos-arm64.deb
+Size: 164724
+MD5sum: c3b4b8ad45f42b4a74b7b446aa0a89db
+SHA1: 90598af967a1f20d50ffc0d6172052dee8b6f7b3
+SHA256: 4b931a97c1cbbeda323b9a23464a184a60ab5c93f171c2d4c411d9bb68302e07
+Section: 冰蓝的插件
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Author: 冰蓝
+Name: 全局水印
+
 Package: com.charlieleung.liquidify
 Version: 1.3.7-4+repair.4
 Architecture: iphoneos-arm64e
@@ -141,6 +157,24 @@ Section: Tweaks
 Description: 液态玻璃
 Author: 一刀
 Name: 88液态玻璃插件 1.3.7-4
+
+Package: com.charlieleung.trollopenjb
+Version: 1.3.7
+Architecture: iphoneos-arm64
+Maintainer: Charlie Leung
+Installed-Size: 4460
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/trollopenjb_1.3.7_.deb
+Size: 1121104
+MD5sum: f27fb287358237e563528f641f97c1db
+SHA1: c4dc28ca21862dc36e149935c64c5a914cd9ecb0
+SHA256: 6fb662df4c0754f267eb2f8bb8c8af63380098c62fff4d3b16b74885e7a08e7b
+Section: 分屏插件
+Description: TrollOpen 的越狱版本，支持 ios16 及以上，免费公开版，无后续更新，不需要反馈 bug。QQ 群：1094778353，后续付费更新联系群主或群管理。小黑子闭嘴吧，看看什么是最强分屏！
+Author: Charlie Leung
+Icon: https://axs66.github.io/pro/icon/trollopenjb.png
+Name: TrollOpen 分屏
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopenjb/js.json
 
 Package: com.susu.sumusicplayercc
 Version: 1.0.1
