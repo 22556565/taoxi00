@@ -125,3 +125,20 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.susu.sumusicplayercc
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: 苏苏
+Installed-Size: 628
+Depends: com.opa334.ccsupport
+Filename: ./debs/ss.deb
+Size: 86792
+MD5sum: ebda2b1b092c499a7fb954e9f07e5915
+SHA1: 8ae56b7636694f6fb4dd195060e063431b97edb7
+SHA256: 17578d3f496ce6e1f7d32daba12c30f97ca7337f4d1f15dd123f5f9ea42f9b4a
+Section: Control Center (Modules)
+Description: 控制中心音乐播放器
+Author: 苏苏
+Icon: https://www.susubaby.top/images/sumusicplayercc.png
+Name: SuMusicPlayerCC
+
