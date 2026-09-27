@@ -216,6 +216,24 @@ Author: MoWang
 Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
 Name: 彩虹键盘光效
 
+Package: com.simon.ccglow
+Version: 2.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Simon
+Installed-Size: 384
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.simon.ccglow_2.0.3_iphoneos-arm64e.deb
+Size: 23516
+MD5sum: 9dcb1b076f2be089bc746d38f63d42fd
+SHA1: 2f95382d8e6f08c68ef1b56f890cf94496b5a0ce
+SHA256: a37d329ca02a355a7684d817163df927b3f5a73d688bcf330c88c3504de2ec4c
+Section: Tweaks
+Description: 自定义控制中心发光。
+Author: Simon
+Icon: https://huayuarc.github.io/icon/ccglow.jpg
+Name: 控制中心发光
+
 Package: com.simon.ccweathermodule
 Version: 1.0.4
 Architecture: iphoneos-arm64e
